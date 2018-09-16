@@ -1,4 +1,3 @@
-
 body{
 	background-color: #004d33;
 	background-repeat: no-repeat;
@@ -11,10 +10,32 @@ h1{
 	text-align: center;
 }
 
+form{
+	margin-top: 150px;
+}
 
 fieldset{
-	margin-top: 200px;
-	margin-left: 300px;
+	margin: auto;
+
 	width: 500px;
 	background-color: white;
+}
+
+
+input{
+	display: block;
+	margin: auto;
+	width: 50%;
+	line-height: 1.5rem;
+}
+
+input.submit-button{
+	color: #ffffff;
+	background-color: #d64829;
+	margin-bottom: 1.2rem;
+	line-height: 40px;
+	font-size: 20px;
+	border:none;
+	border-radius: 7px;
+
 }
